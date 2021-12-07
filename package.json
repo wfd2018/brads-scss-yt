@@ -1,0 +1,23 @@
+{
+  "name": "brads-sass-newest",
+  "version": "1.0.0",
+  "description": "sass/scss and svg project",
+  "main": "index.js",
+  "scripts": {
+    "sasscompress-css": "sass --watch --style compressed scss/main.scss style.css",
+    "dev": "lite-server",
+    "test-js": "standard"
+  },
+  "keywords": ["sass", "scss", "svg", "css", "scripts"],
+  "author": "wfd2018",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.43.2",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "request": "^2.88.2"
+  }
+}
